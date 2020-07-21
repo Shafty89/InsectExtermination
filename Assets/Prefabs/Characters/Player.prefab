@@ -182,7 +182,6 @@ GameObject:
   - component: {fileID: 11400004}
   - component: {fileID: 1395767088188017399}
   - component: {fileID: 2810939461193308775}
-  - component: {fileID: 1785207956579548241}
   - component: {fileID: 7714903995872898606}
   m_Layer: 0
   m_Name: Player
@@ -331,23 +330,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 100
---- !u!114 &1785207956579548241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b979892e631e8545bb648b5542ee5e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fpsCam: {fileID: 0}
-  zoomedOutFOV: 60
-  zoomedInFOV: 20
-  zoomOutSensitivity: 2
-  zoomInSensitivity: 0.7
 --- !u!114 &7714903995872898606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -488,12 +470,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 2000000}
-  range: 100
-  damage: 30
+  range: 10
+  damage: 60
   muzzleFlash: {fileID: 19800000, guid: 03a4a1935a9f4454c861dfa0aa6df562, type: 3}
   hitEffect: {fileID: 3200626853725890044, guid: fe91b6e5d972a0e4faf62a22d74dea26,
     type: 3}
   ammoSlot: {fileID: 7714903995872898606}
+  timeBetweenShots: 2
 --- !u!1 &2348903581959046780
 GameObject:
   m_ObjectHideFlags: 0
@@ -10412,7 +10395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7395095471882701204
 Transform:
   m_ObjectHideFlags: 0
@@ -10442,12 +10425,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 2000000}
-  range: 100
-  damage: 30
+  range: 25
+  damage: 15
   muzzleFlash: {fileID: 548966205180088677}
   hitEffect: {fileID: 3200626853725890044, guid: fe91b6e5d972a0e4faf62a22d74dea26,
     type: 3}
   ammoSlot: {fileID: 7714903995872898606}
+  timeBetweenShots: 0.1
 --- !u!1 &7395095471882802614
 GameObject:
   m_ObjectHideFlags: 0
@@ -15411,13 +15395,14 @@ GameObject:
   - component: {fileID: 7989024721888818570}
   - component: {fileID: 2195446205925792721}
   - component: {fileID: 8997770507580535827}
+  - component: {fileID: 8389340047064959811}
   m_Layer: 0
   m_Name: Ak-47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7989024721888818570
 Transform:
   m_ObjectHideFlags: 0
@@ -15487,12 +15472,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 2000000}
-  range: 100
+  range: 50
   damage: 30
   muzzleFlash: {fileID: 548966205180088677}
   hitEffect: {fileID: 3200626853725890044, guid: fe91b6e5d972a0e4faf62a22d74dea26,
     type: 3}
   ammoSlot: {fileID: 7714903995872898606}
+  timeBetweenShots: 0.6
+--- !u!114 &8389340047064959811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7989024721888389546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b979892e631e8545bb648b5542ee5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCam: {fileID: 2000000}
+  fpsController: {fileID: 11400004}
+  zoomedOutFOV: 60
+  zoomedInFOV: 20
+  zoomOutSensitivity: 2
+  zoomInSensitivity: 0.5
 --- !u!1 &7989024721888389548
 GameObject:
   m_ObjectHideFlags: 0
