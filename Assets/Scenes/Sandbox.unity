@@ -152,6 +152,16 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5515755268306181201, guid: dbb1415561ef0e84db847999fb05024d,
         type: 3}
       propertyPath: m_Name
@@ -1164,6 +1174,16 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5515755268306181201, guid: dbb1415561ef0e84db847999fb05024d,
         type: 3}
       propertyPath: m_Name
@@ -1572,6 +1592,16 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5515755268306181201, guid: dbb1415561ef0e84db847999fb05024d,
         type: 3}
       propertyPath: m_Name
@@ -1899,6 +1929,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5515755268306181201, guid: dbb1415561ef0e84db847999fb05024d,
         type: 3}
@@ -3273,6 +3313,16 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5515755268306181201, guid: dbb1415561ef0e84db847999fb05024d,
         type: 3}
       propertyPath: m_Name
@@ -4017,6 +4067,16 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5515755268306181201, guid: dbb1415561ef0e84db847999fb05024d,
         type: 3}
       propertyPath: m_Name
@@ -4282,6 +4342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 5515755268306181201, guid: dbb1415561ef0e84db847999fb05024d,
         type: 3}
@@ -6879,6 +6944,16 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5515755268306181201, guid: dbb1415561ef0e84db847999fb05024d,
         type: 3}
       propertyPath: m_Name
@@ -7702,6 +7777,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515755268306181200, guid: dbb1415561ef0e84db847999fb05024d,
+        type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5515755268306181201, guid: dbb1415561ef0e84db847999fb05024d,
         type: 3}
