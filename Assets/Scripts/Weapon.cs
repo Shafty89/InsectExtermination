@@ -18,26 +18,31 @@ public class Weapon : MonoBehaviour
 
     bool shootable = true;
 
-    void Update()
+    private void OnEnable()
     {
-        if (Input.GetMouseButtonDown(0) && shootable == true)
-        {
-            StartCoroutine(Shoot());
-        }
-    }
-
-    IEnumerator Shoot()
-    {
-        shootable = false;
-        if (ammoSlot.GetCurrentAmmo() > 0)
-        {
-            PlayMuzzleFlash();
-            ProcessRaycast();
-            ammoSlot.DecreaseAmmo();
-        }
-        yield return new WaitForSeconds(timeBetweenShots);
         shootable = true;
     }
+
+    //void Update()
+    //{
+    //    if (Input.GetMouseButtonDown(0) && shootable == true)
+    //    {
+    //        StartCoroutine(Shoot());
+    //    }
+    //}
+
+    //IEnumerator Shoot()
+    //{
+    //    shootable = false;
+    //    if (ammoSlot.GetCurrentAmmo() > 0)
+    //    {
+    //        PlayMuzzleFlash();
+    //        ProcessRaycast();
+    //        ammoSlot.DecreaseAmmo();
+    //    }
+    //    yield return new WaitForSeconds(timeBetweenShots);
+    //    shootable = true;
+    //}
 
     private void PlayMuzzleFlash()
     {

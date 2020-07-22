@@ -45,7 +45,7 @@ public class WeaponSwitch : MonoBehaviour
 
     private void GetScrollInput()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0) //Upwards wheel
+        if (Input.GetAxis("Mouse ScrollWheel") < 0) //Upwards wheel
         {
             if (currentWeapon >= transform.childCount - 1)  //Starts from beginning
             {
@@ -57,7 +57,7 @@ public class WeaponSwitch : MonoBehaviour
             }
 
         }
-        if (Input.GetAxis("Mouse ScrollWheel") < 0) //Downwards from
+        if (Input.GetAxis("Mouse ScrollWheel") > 0) //Downwards from
         {
             if (currentWeapon <= 0)  //Goes to last weapon
             {

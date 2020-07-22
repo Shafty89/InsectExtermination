@@ -328,7 +328,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 777eb65e711d60b47a5f835d0fcc0159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoCount: 10
+  ammoSlots:
+  - ammoType: 0
+    ammoCount: 10
+  - ammoType: 1
+    ammoCount: 20
+  - ammoType: 2
+    ammoCount: 5
 --- !u!1 &2348903581959046776
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,7 +972,7 @@ MonoBehaviour:
   hitEffect: {fileID: 3200626853725890044, guid: fe91b6e5d972a0e4faf62a22d74dea26,
     type: 3}
   ammoSlot: {fileID: 2242648081180366559}
-  timeBetweenShots: 0.5
+  timeBetweenShots: 0.4
 --- !u!114 &8389340047064959811
 MonoBehaviour:
   m_ObjectHideFlags: 0
