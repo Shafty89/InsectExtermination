@@ -469,6 +469,7 @@ MonoBehaviour:
   hitEffect: {fileID: 3200626853725890044, guid: fe91b6e5d972a0e4faf62a22d74dea26,
     type: 3}
   ammoSlot: {fileID: 2242648081180366559}
+  ammoType: 1
   timeBetweenShots: 2
 --- !u!114 &8143443170029896896
 MonoBehaviour:
@@ -700,6 +701,7 @@ MonoBehaviour:
   hitEffect: {fileID: 3200626853725890044, guid: fe91b6e5d972a0e4faf62a22d74dea26,
     type: 3}
   ammoSlot: {fileID: 2242648081180366559}
+  ammoType: 0
   timeBetweenShots: 0.1
 --- !u!114 &641320068364161921
 MonoBehaviour:
@@ -972,6 +974,7 @@ MonoBehaviour:
   hitEffect: {fileID: 3200626853725890044, guid: fe91b6e5d972a0e4faf62a22d74dea26,
     type: 3}
   ammoSlot: {fileID: 2242648081180366559}
+  ammoType: 2
   timeBetweenShots: 0.4
 --- !u!114 &8389340047064959811
 MonoBehaviour:
