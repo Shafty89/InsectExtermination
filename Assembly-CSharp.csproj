@@ -72,9 +72,11 @@
      <Compile Include="Assets\Scripts\AmmoPickups.cs" />
      <Compile Include="Assets\Scripts\AmmoType.cs" />
      <Compile Include="Assets\Scripts\Ammunition.cs" />
+     <Compile Include="Assets\Scripts\BatteryPickups.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\FlashLight.cs" />
      <Compile Include="Assets\Scripts\PlayerDeathHandler.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
