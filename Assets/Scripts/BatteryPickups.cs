@@ -7,6 +7,7 @@ public class BatteryPickups : MonoBehaviour
     [SerializeField] float restoreAngle = 90f;
     [SerializeField] float addIntensity = 1f;
 
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
