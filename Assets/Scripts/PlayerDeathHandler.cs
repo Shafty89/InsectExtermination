@@ -16,6 +16,7 @@ public class PlayerDeathHandler : MonoBehaviour
     {
         gameOverCanvas.enabled = true;
         Time.timeScale = 0;
+        FindObjectOfType<WeaponSwitch>().enabled = false;     //Prevents from switching weapons upon dying
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
