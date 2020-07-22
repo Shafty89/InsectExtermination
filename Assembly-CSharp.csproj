@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\AmmoType.cs" />
      <Compile Include="Assets\Scripts\Ammunition.cs" />
      <Compile Include="Assets\Scripts\BatteryPickups.cs" />
+     <Compile Include="Assets\Scripts\DisplayDamage.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
