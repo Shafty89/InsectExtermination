@@ -670,6 +670,12 @@
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProGrids">
+ <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProGrids.Editor">
+ <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
