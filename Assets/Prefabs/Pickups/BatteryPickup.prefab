@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restoreAngle: 90
-  addIntensity: 1
+  addIntensity: 2
 --- !u!135 &8626880765690832317
 SphereCollider:
   m_ObjectHideFlags: 0
