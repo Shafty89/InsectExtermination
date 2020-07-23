@@ -696,14 +696,29 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProGrids">
+ <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Connect.Share.Editor">
  <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
  <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProGrids.Editor">
+ <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -723,29 +738,14 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder">
- <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProGrids">
- <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProGrids.Editor">
- <HintPath>C:/Users/Oula/Desktop/UnityFolder/InsectExtermination/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
