@@ -29,16 +29,17 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    void Resume()
+    public void Resume()
     {
         pauseMenuCanvas.enabled = false;
         Time.timeScale = 1;
         GameIsPaused = false;
         FindObjectOfType<WeaponSwitch>().enabled = true;
         FindObjectOfType<Weapon>().enabled = true;
+        Cursor.visible = false;
     }
 
-    void Pause()
+    public void Pause()
     {
         pauseMenuCanvas.enabled = true;
         Time.timeScale = 0;
@@ -48,14 +49,4 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
-
-    //public void PauseMenuPressed()
-    //{
-    //    pauseMenuCanvas.enabled = true;
-    //    Time.timeScale = 0;
-    //    FindObjectOfType<WeaponSwitch>().enabled = false;     //Prevents from switching weapons upon pausing
-    //    Cursor.lockState = CursorLockMode.None;
-    //    Cursor.visible = true;
-    //}
-
 }
