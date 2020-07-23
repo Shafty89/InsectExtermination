@@ -41,10 +41,6 @@ public class WeaponSwitch : MonoBehaviour
         {
             currentWeapon = 2;
         }
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            GetComponent<PauseMenu>().PauseMenuPressed();
-        }
     }
 
     private void GetScrollInput()

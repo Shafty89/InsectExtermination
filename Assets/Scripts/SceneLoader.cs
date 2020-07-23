@@ -13,6 +13,19 @@ public class SceneLoader : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void LoadMainMenuScene()
+    {
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1;
+    }
+
+    public void PlayAgainFromStart()
+    {
+        SceneManager.LoadScene(1);
+        Time.timeScale = 1;
+    }
+
+
     public void ReloadGame()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
